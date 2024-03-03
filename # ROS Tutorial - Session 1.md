@@ -94,130 +94,17 @@ In our next session, we'll start node programming with Python, setting up and wo
 Feel free to reach out if you have any questions or need further clarifications on the topics covered. Happy learning!
 
 
+---
 
+## ✒️ Crafted by
 
-```
-```
+**Sadegh-Kalami**
 
+🔗 **Connect with me:**
 
-# <mark>2. Session 2</mark>
-make python node + debug + make workspace+ Grpah of nodes + get data and info of nodes.
-what is ROS what can U do with ROS 
-## make workspace directory
-```bash
-mkdir classROSws
-cd classROSws
-mkdir src
-```
-and then 
-```
-catkin_make
-catkin build --> faster and doesnt need to be in the worksapce directory
-```
+- **GitHub Profile**: collaborations at [Sadegh-Kalami](https://github.com/Sadegh-Kalami).
+- **Personal Site**: My projects and portfolio at [Sadegh-Kalami's GitHub Page](https://sadegh-kalami.github.io/).
 
+*Your journey through my digital craftsmanship begins here.*
 
-## make package ROS
-```bash
-catkin_create_pkg <name of the package> dependecies
-
-catkin_create_pkg testSubPub std_msgs rospy roscpp
-```
-<p>
-package.xml: 
-tozhihat dar morde package :
-sazande + vabasetgiha + emial+ dependecies </p
->
-
-
-```bash 
-sadegh@sadegh-GE63-Raider-RGB-8SE:~/classROSws/src$ catkin_create_pkg testSubPub std_msgs rospy roscpp 
-WARNING: Package name "testSubPub" does not follow the naming conventions. It should start with a lower case letter and only contain lower case letters, digits, underscores, and dashes.
-Created file testSubPub/package.xml
-Created file testSubPub/CMakeLists.txt
-Created folder testSubPub/include/testSubPub
-Created folder testSubPub/src
-Successfully created files in /home/sadegh/classROSws/src/testSubPub. Please adjust the values in package.xml.
-sadegh@sadegh-GE63-Raider-RGB-8SE:~/classROSws/src$ ls
-CMakeLists.txt  testSubPub
-sadegh@sadegh-GE63-Raider-RGB-8SE:~/classROSws/src$ cd testSubPub/
-sadegh@sadegh-GE63-Raider-RGB-8SE:~/classROSws/src/testSubPub$ ls
-CMakeLists.txt  include  package.xml  src
-
-```
-
-
-include for header files
-src for .cc files
-
-## make app
-
-```
-if __name__=='__main__':
-# in code maduli vase code digeii nist va faqt khodehs run mishe
-
-``` 
-
-```
-#!/usr/bin/env python3
-
-import rospy
-
-
-
-
-
-
-
-if __name__=='__main__':
-  rospy.init_node('publihser_node')
-  rospy.loginfo('Hello world')
-
-```
-after saving code
-`chmod +x pub_python.py`
-
-install ROS VSCODE extention
-
-
-
-## Check for pakcge 
-
-```bash
-catkin_make
-source devel/s
-setup.bash  setup.sh    setup.zsh   share/      
-source devel/setup.bash 
-rosrun testSubPub pub_python.py 
-[INFO] [1709212524.315141]: Hello world
-[WARN] [1709212524.317080]: This is warning
-
-```
-
-## Structure of ROS workspace
-`/classROSws/src/testSubPub/src$`
-```
-/<name of workspace>/src/<name of module>/src/
-
-
-
-```
-
-
-```
-rosnode info /nodename
-rqt_graph
-
-```
-
-# 3. Session3
-
-URDF + Gazebo + node Controli + RVIZ
-x
-
-
-
-
-
-# todo 
-
-write a node to subscribe to a spesefic node to watch it and  if addad 2 did addad 3 publish kone to hamon node 
+---
