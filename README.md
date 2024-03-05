@@ -1,2 +1,2 @@
 # ROS-Tutorial
-Learning basic ROS Here :) 
+Learn basic ROS Here :) 
